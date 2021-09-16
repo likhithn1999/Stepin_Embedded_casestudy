@@ -10,6 +10,6 @@
 #include <avr/io.h>
 
 void InitTimer();
-void activity3_PWM(int16_t temp);
+void activity3_PWM(uint16_t temp);
 
 #endif /* _ACTIVITY_3_H_ */
