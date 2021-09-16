@@ -11,7 +11,7 @@ void InitTimer()
     DDRB |=(1<<PB1);
 }
 
-void activity3_PWM(int16_t temp)
+void activity3_PWM(uint16_t temp)
 {
     InitTimer();
     if(temp>=0 && temp<=200){
@@ -41,7 +41,7 @@ int main(void)
 {
 
     void InitTimer();
-    void activity3_PWM(int16_t temp);
+    void activity3_PWM(uint16_t temp);
 
     while(1)
 
